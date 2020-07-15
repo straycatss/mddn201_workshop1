@@ -43,6 +43,11 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+h1{
+	text-align: center;
+}
+
+
 
 
 /* Simple grid */
