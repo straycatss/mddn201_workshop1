@@ -1,5 +1,5 @@
 *{
-	box-sizing: border-box;
+	box-sizing: border-box; 
 	/* This makes the widths of elements more consistent
 		Full details here https://css-tricks.com/box-sizing/ */
 }
@@ -10,7 +10,7 @@ body{
 }
 
 section{
-	max-width: 75%;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
@@ -43,9 +43,9 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
-/* h1{
+h1{
 	text-align: center;
-} */
+}
 
 
 
@@ -82,24 +82,4 @@ nav a:hover{
 
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
-}
-
-.segment{
- display: flex;
- 	margin-bottom: 40px;
-}
-
-.title{
- float: left;
- width: 20%;
- background-color: lightgray;
-}
-
-.maintitle{
-	text-align: center;
-}
-
-.desc{
-	text-align: left;
-	padding: 0px 15px 20px;
 }
