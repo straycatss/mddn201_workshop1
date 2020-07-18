@@ -47,7 +47,26 @@ nav a:hover{
 	text-align: center;
 } */
 
+.segment{
+ display: flex;
+ 	margin-bottom: 40px;
+}
 
+.title{
+ float: left;
+ width: 20%;
+ background-color: lightgray;
+}
+
+.maintitle{
+	text-align: center;
+}
+
+.desc{
+	text-align: left;
+	padding: 0px 15px 20px;
+
+}
 
 
 /* Simple grid */
@@ -82,25 +101,4 @@ nav a:hover{
 
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
-}
-
-.segment{
- display: flex;
- 	margin-bottom: 40px;
-}
-
-.title{
- float: left;
- width: 20%;
- background-color: lightgray;
-}
-
-.maintitle{
-	text-align: center;
-}
-
-.desc{
-	text-align: left;
-	padding: 0px 15px 20px;
-
 }
