@@ -68,7 +68,18 @@ nav a:hover{
 
 }
 
+.imggrid {
+	width: 80%;
+		background-color: black;
+}
 
+.imggrid img{
+	padding: 0px 35px 35px 35px;
+	width: 33.3%;
+	float: left;
+
+
+}
 /* Simple grid */
 .g-row{
 	width: 100%;
