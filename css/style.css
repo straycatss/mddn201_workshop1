@@ -7,6 +7,8 @@
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
+	background-color: black;
+	color: white;
 }
 
 section{
@@ -49,13 +51,15 @@ nav a:hover{
 
 .segment{
  display: flex;
- 	margin-bottom: 40px;
+ margin-bottom: 80px;
+
 }
 
 .title{
  float: left;
  width: 25%;
  background-color: lightgray;
+
 }
 
 .maintitle{
@@ -71,6 +75,7 @@ nav a:hover{
 .imggrid {
 	width: 75%;
 		background-color: black;
+
 }
 
 .imggrid img{
