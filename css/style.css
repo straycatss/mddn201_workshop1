@@ -7,8 +7,9 @@
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
-	background-color: black;
+	background-color: #504D56;
 	color: white;
+	overscroll-behavior-y: none;
 }
 
 section{
@@ -20,20 +21,30 @@ section{
 }
 
 header{
-	background-color: darkOrange;
+	background-color: #B5838D;
 	color: white; /* more readable on an orange background */
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 50px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+header h1{
+	font-size: 70px;
+	margin: 0;
 }
 
 nav{
 	width: 100%;
 	height: 60px;
 	background-color: wheat;
+	position: fixed;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
 }
 
 nav a, nav h3{
-	float: left;
 	margin: 0px;
 	line-height: 60px;
 	margin-left: 1em;
@@ -45,26 +56,33 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
-/* h1{
-	text-align: center;
-} */
+h1{
+text-align: center;
+color: #FFF2EB;
+}
 
 .segment{
  display: flex;
  margin-bottom: 80px;
 
 }
-
+.sub{
+	text-align: center;
+}
 .title{
  float: left;
  width: 25%;
- background-color: lightgray;
- margin-bottom:35px;
+ background-color: #FFB4A2;
+ margin-bottom:25px;
+	margin-top: 25px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 
 }
 
 .maintitle{
 	text-align: center;
+	margin-top: 10%;
 }
 
 .desc{
@@ -75,14 +93,16 @@ nav a:hover{
 
 .imggrid {
 	width: 75%;
-		background-color: black;
+
 
 }
 
 .imggrid img{
-	padding: 0px 35px 35px 35px;
+	border-radius: 18%;
+	padding:25px 25px 25px 25px;
 	width: 33.3%;
 	float: left;
+
 
 
 }
